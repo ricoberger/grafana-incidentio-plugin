@@ -27,6 +27,7 @@ export function QueryEditor({
       <InlineFieldRow>
         <InlineField label="Query Type" labelWidth={15}>
           <Combobox<QueryType>
+            data-testid="query-type"
             width={35}
             value={query.queryType}
             options={[
