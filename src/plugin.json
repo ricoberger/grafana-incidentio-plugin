@@ -1,0 +1,62 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "datasource",
+  "name": "incident.io",
+  "id": "ricoberger-incidentio-datasource",
+  "metrics": true,
+  "backend": true,
+  "executable": "gpx_incidentio",
+  "info": {
+    "keywords": [
+      "datasource",
+      "alerts",
+      "incidents"
+    ],
+    "description": "incident.io plugin for Grafana. Explore your alerts and incidents.",
+    "author": {
+      "name": "Rico Berger"
+    },
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "Repository",
+        "url": "https://github.com/ricoberger/grafana-incidentio-plugin"
+      },
+      {
+        "name": "Documentation",
+        "url": "https://github.com/ricoberger/grafana-incidentio-plugin/blob/main/README.md"
+      },
+      {
+        "name": "Issues",
+        "url": "https://github.com/ricoberger/grafana-incidentio-plugin/issues"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/ricoberger/grafana-incidentio-plugin/blob/main/LICENSE"
+      },
+      {
+        "name": "Sponsorship",
+        "url": "https://github.com/ricoberger"
+      }
+    ],
+    "screenshots": [
+      {
+        "name": "Alerts",
+        "path": "img/screenshots/alerts.png"
+      },
+      {
+        "name": "Incidents",
+        "path": "img/screenshots/incidents.png"
+      }
+    ],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=12.3.0",
+    "plugins": []
+  }
+}
