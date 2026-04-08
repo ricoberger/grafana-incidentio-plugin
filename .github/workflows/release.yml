@@ -25,8 +25,20 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # See https://github.com/grafana/plugin-validator/issues/555
+      # - name: Build Plugin
+      #   uses: grafana/plugin-actions/build-plugin@build-plugin/v1.2.0
+      #   env:
+      #     SKIP_OSV_SCANNER: 'true'
+      #   with:
+      #     go-version: '1.26.1'
+      #     node-version: '22'
+      #     attestation: true
+      #     use_changelog_generator: true
+      #     token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Build Plugin
-        uses: grafana/plugin-actions/build-plugin@build-plugin/v1.2.0
+        uses: ricoberger/grafana-plugin-actions/build-plugin@main
         env:
           SKIP_OSV_SCANNER: 'true'
         with:
