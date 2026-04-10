@@ -79,12 +79,12 @@
             {
               "attribute": "severity",
               "operator": "one_of",
-              "value": "${severity}"
+              "value": "${severity:csv}"
             },
             {
               "attribute": "status",
               "operator": "one_of",
-              "value": "${status}"
+              "value": "${status:csv}"
             }
           ],
           "limit": 100,
@@ -169,12 +169,12 @@
             {
               "attribute": "severity",
               "operator": "one_of",
-              "value": "${severity}"
+              "value": "${severity:csv}"
             },
             {
               "attribute": "status",
               "operator": "one_of",
-              "value": "${status}"
+              "value": "${status:csv}"
             }
           ],
           "limit": 100,
@@ -263,12 +263,12 @@
             {
               "attribute": "severity",
               "operator": "one_of",
-              "value": "${severity}"
+              "value": "${severity:csv}"
             },
             {
               "attribute": "status",
               "operator": "one_of",
-              "value": "${status}"
+              "value": "${status:csv}"
             }
           ],
           "limit": 100,
@@ -387,12 +387,12 @@
             {
               "attribute": "severity",
               "operator": "one_of",
-              "value": "${severity}"
+              "value": "${severity:csv}"
             },
             {
               "attribute": "status",
               "operator": "one_of",
-              "value": "${status}"
+              "value": "${status:csv}"
             }
           ],
           "limit": 100,
@@ -502,12 +502,12 @@
             {
               "attribute": "severity",
               "operator": "one_of",
-              "value": "${severity}"
+              "value": "${severity:csv}"
             },
             {
               "attribute": "status",
               "operator": "one_of",
-              "value": "${status}"
+              "value": "${status:csv}"
             }
           ],
           "limit": 100,
@@ -704,12 +704,12 @@
             {
               "attribute": "severity",
               "operator": "one_of",
-              "value": "${severity}"
+              "value": "${severity:csv}"
             },
             {
               "attribute": "status",
               "operator": "one_of",
-              "value": "${status}"
+              "value": "${status:csv}"
             }
           ],
           "limit": 100,
