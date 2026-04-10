@@ -68,7 +68,7 @@
                   {
                     "targetBlank": true,
                     "title": "incident.io",
-                    "url": "https://app.incident.io/company/on-call/alerts?view=${__data.fields[\"ID\"].text}"
+                    "url": "https://app.incident.io/TODO/on-call/alerts?view=${__data.fields[\"ID\"].text}"
                   }
                 ]
               }
@@ -255,4 +255,3 @@
   "uid": "alerts",
   "version": 3
 }
-
