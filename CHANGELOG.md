@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.1.1](https://github.com/ricoberger/grafana-incidentio-plugin/tree/v0.1.1) (2026-06-21)
+
+[Full Changelog](https://github.com/ricoberger/grafana-incidentio-plugin/compare/v0.1.0...v0.1.1)
+
+- chore: bump @grafana/create-plugin configuration to 7.7.0 [\#13](https://github.com/ricoberger/grafana-incidentio-plugin/pull/13) ([ricoberger](https://github.com/ricoberger))
+- test\(e2e\): remove e2e tests [\#7](https://github.com/ricoberger/grafana-incidentio-plugin/pull/7) ([ricoberger](https://github.com/ricoberger))
+- fix\(dashboards\): queries in incidents dashboard [\#5](https://github.com/ricoberger/grafana-incidentio-plugin/pull/5) ([ricoberger](https://github.com/ricoberger))
+
 ## [v0.1.0](https://github.com/ricoberger/grafana-incidentio-plugin/tree/v0.1.0) (2026-04-08)
 
 [Full Changelog](https://github.com/ricoberger/grafana-incidentio-plugin/compare/1fd9425c1af29ea83f3ccdb6631ab74c4b30e2be...v0.1.0)
