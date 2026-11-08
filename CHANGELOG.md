@@ -1,5 +1,15 @@
 # Changelog
 
+## [v0.2.0](https://github.com/ricoberger/grafana-incidentio-plugin/tree/v0.2.0) (2026-11-08)
+
+[Full Changelog](https://github.com/ricoberger/grafana-incidentio-plugin/compare/v0.1.1...v0.2.0)
+
+- chore: dependency updates [\#37](https://github.com/ricoberger/grafana-incidentio-plugin/pull/37) ([ricoberger](https://github.com/ricoberger))
+- chore: bump @grafana/create-plugin configuration to 7.17.0 [\#34](https://github.com/ricoberger/grafana-incidentio-plugin/pull/34) ([ricoberger](https://github.com/ricoberger))
+- chore: bump @grafana/create-plugin configuration to 7.11.0 [\#29](https://github.com/ricoberger/grafana-incidentio-plugin/pull/29) ([ricoberger](https://github.com/ricoberger))
+- chore: update dependencies [\#23](https://github.com/ricoberger/grafana-incidentio-plugin/pull/23) ([ricoberger](https://github.com/ricoberger))
+- chore: bump @grafana/create-plugin configuration to 7.9.1 [\#20](https://github.com/ricoberger/grafana-incidentio-plugin/pull/20) ([ricoberger](https://github.com/ricoberger))
+
 ## [v0.1.1](https://github.com/ricoberger/grafana-incidentio-plugin/tree/v0.1.1) (2026-06-21)
 
 [Full Changelog](https://github.com/ricoberger/grafana-incidentio-plugin/compare/v0.1.0...v0.1.1)
